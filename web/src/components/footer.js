@@ -21,10 +21,6 @@ const Footer = ({ siteTitle }) => (
             Rentemestervej 56C
             2400 København NV
           </p>
-            </li>
-            <li className="mt-2 inline-block mr-2 md:block md:mr-0">
-            </li>
-          </ul>
         </div>
         <div className="flex-1">
           <p className="uppercase text-gray-500 md:mb-6">
