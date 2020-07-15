@@ -17,60 +17,38 @@ const Pricing = ({ title, transparentCTAs }) => {
         <div className="flex flex-col sm:flex-row justify-center pt-12 my-12 sm:my-4">
           <div className="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
             <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
-              <div className="p-8 text-3xl font-bold text-center border-b-4">Free</div>
+              <div className="p-8 text-3xl font-bold text-center border-b-4">easyScreen</div>
               <ul className="w-full text-center text-sm">
-                <li className="border-b py-4">Thing</li>
-                <li className="border-b py-4">Thing</li>
-                <li className="border-b py-4">Thing</li>
+                <li className="border-b py-4">browserbaseret</li>
+                <li className="border-b py-4">skærmstyringssystem</li>
+                <li className="border-b py-4">interaktiv formidling</li>
+                <li className="border-b py-4">automatisk indhold</li>
+                <li className="border-b py-4">tonsvis af addons</li>
               </ul>
-            </div>
-            <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div className="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                £0 <span className="text-base">for one user</span>
-              </div>
-              <div className="flex items-center justify-center">
-                <button className={btnClassName}>Sign Up</button>
-              </div>
             </div>
           </div>
 
           <div className="flex flex-col w-5/6 lg:w-1/3 mx-auto lg:mx-0 rounded-lg bg-white mt-4 sm:-mt-6 shadow-lg z-10">
             <div className="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
-              <div className="w-full p-8 text-3xl font-bold text-center">Basic</div>
+              <div className="w-full p-8 text-3xl font-bold text-center">easyOPAC</div>
               <div className="h-1 w-full gradient my-0 py-0 rounded-t"></div>
               <ul className="w-full text-center text-base font-bold">
-                <li className="border-b py-4">Thing</li>
-                <li className="border-b py-4">Thing</li>
-                <li className="border-b py-4">Thing</li>
-                <li className="border-b py-4">Thing</li>
+                <li className="border-b py-4">lirum</li>
+                <li className="border-b py-4">lopsim</li>
+                <li className="border-b py-4">lapsing</li>
+                <li className="border-b py-4">vapsing</li>
               </ul>
-            </div>
-            <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div className="w-full pt-6 text-4xl font-bold text-center">
-                £x.99 <span className="text-base">/ per user</span>
-              </div>
-              <div className="flex items-center justify-center">
-                <button className={btnClassName}>Sign Up</button>
-              </div>
             </div>
           </div>
 
           <div className="flex flex-col w-5/6 lg:w-1/4 mx-auto lg:mx-0 rounded-none lg:rounded-l-lg bg-white mt-4">
             <div className="flex-1 bg-white text-gray-600 rounded-t rounded-b-none overflow-hidden shadow">
-              <div className="p-8 text-3xl font-bold text-center border-b-4">Pro</div>
+              <div className="p-8 text-3xl font-bold text-center border-b-4">emailKanon</div>
               <ul className="w-full text-center text-sm">
-                <li className="border-b py-4">Thing</li>
-                <li className="border-b py-4">Thing</li>
-                <li className="border-b py-4">Thing</li>
+                <li className="border-b py-4">nyhedsbrev med ganske få klik</li>
+                <li className="border-b py-4">statistiksystem</li>
+                <li className="border-b py-4">ubegrænset antal nyhedsbreve</li>
               </ul>
-            </div>
-            <div className="flex-none mt-auto bg-white rounded-b rounded-t-none overflow-hidden shadow p-6">
-              <div className="w-full pt-6 text-3xl text-gray-600 font-bold text-center">
-                £x.99 <span className="text-base">/ per user</span>
-              </div>
-              <div className="flex items-center justify-center">
-                <button className={btnClassName}>Sign Up</button>
-              </div>
             </div>
           </div>
         </div>
