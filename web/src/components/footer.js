@@ -18,8 +18,8 @@ const Footer = ({ siteTitle }) => (
         <div className="flex-1">
           <p className="uppercase text-gray-500 md:mb-6">
             Inlead ApS
-            Rentemestervej 56C
-            2400 København NV
+            <br />Rentemestervej 56C
+            <br r/>2400 København NV
           </p>
         </div>
         <div className="flex-1">
@@ -30,6 +30,7 @@ const Footer = ({ siteTitle }) => (
             >
               +45 70 20 12 20
             </a>
+            <br />
             <a
               href="mailto:info@inlead.dk"
               className="no-underline hover:underline text-gray-800"
